@@ -1,0 +1,144 @@
+body {
+    background-image: url("pozadina.jpg");
+    background-color: white;
+    background-repeat: repeat;
+    background-size: 50%;
+}
+
+h1 {
+    margin: 0px;
+    font-size: 50px;
+}
+
+.meni a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 76px;
+    text-decoration: none;
+    font-size: 23px;
+}
+
+.meni {
+    background-color: blue;
+    overflow: hidden;
+}
+
+.meni a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.meni a.active {
+    background-color: white;
+    color: blue;
+}
+
+.lab {
+    margin-top: 10px;
+    color: white;
+    background-color: gray;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 20px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    height: 100%;
+}
+
+.grid {
+    color: white;
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    grid-template-rows: auto 333.217px auto auto;
+}
+
+.srednji {
+    background-color: blueviolet;
+    color: white;
+    text-align: left;
+}
+
+.srednji ul {
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.kraci {
+    background-color: rgb(8, 184, 87);
+    font-size: 20px;
+    text-align: left;
+}
+
+.kraci ul li {
+    display: inline;
+    padding-left: 35px;
+}
+
+.dugi {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    width: 100%;
+    background-color: tomato;
+    font-size: 20px;
+    text-align: left;
+}
+
+footer {
+    margin-top: 50px;
+    position: relative;
+    margin-bottom: 20px;
+    margin-left: 450px;
+    font-size: 20px;
+    font-style: italic;
+    color: white;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: white;
+  }
+  .topnav .search-container {
+    float: right;
+    padding: 5px;
+  }
+  
+  .topnav input[type=text] {
+    font-size: 17px;
+    border: none;
+    padding: 5px;
+    width: 300px;
+  }
+  
+  .topnav .search-container button {
+    float: right;
+    padding: 5px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .topnav .search-container button:hover {
+    background: #ccc;
+  }
+    .topnav input[type=text] {
+      border: 1px solid #ccc;  
+    }
+    #jp{
+        display: inline;
+        font-size: 17px;  
+        color: rgb(0, 0, 0);
+        background-color: inherit;
+        font-family: Arial, Helvetica, sans-serif
+    }
+    
+    .cc {
+        color: yellow;
+    }

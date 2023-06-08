@@ -1,0 +1,67 @@
+body {
+    background-image: url("pozadina.jpg");
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+h1 {
+    margin: 0px;
+    font-size: 50px;
+}
+
+.container {
+    width: 500px;
+}
+
+.meni a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 76px;
+    text-decoration: none;
+    font-size: 23px;
+}
+
+.meni a.active {
+    background-color: white;
+    color: blue;
+}
+
+.meni {
+    background-color: blue;
+    overflow: hidden;
+}
+
+.meni a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+#cc {
+    margin-left: 63px;
+}
+
+.dd {
+    margin-left: 45px;
+}
+
+.topnav a.active {
+    background-color: white;
+    color: blue;
+}
+
+#glavni {
+    font-size: 20px;
+    max-width: 500px;
+    margin: auto;
+    color: white;
+}
+
+footer {
+    position: absolute;
+    bottom: 3%;
+    margin-left: 450px;
+    font-size: 20px;
+    font-style: italic;
+    color: white;
+}
